@@ -1,15 +1,19 @@
 {
   "name": "guitar-practice-log",
-  "main": "index.tsx",
   "scripts": {
-    "vite": "vite"
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
   "devDependencies": {
     "@types/react": "^18.2.20",
+    "@vitejs/plugin-react-refresh": "^1.3.1",
     "autoprefixer": "^10.4.15",
     "postcss": "^8.4.27",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "tailwindcss": "^3.3.3"
+    "tailwindcss": "^3.3.3",
+    "typescript": "^4.1.2",
+    "vite": "^2.1.5"
   }
 }
